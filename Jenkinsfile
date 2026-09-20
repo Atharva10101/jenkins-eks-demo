@@ -4,7 +4,7 @@ pipeline {
 
     environment {
         AWS_REGION = 'ap-southeast-2'
-        ECR_REPO = 'jenkins-eks-demo'
+        ECR_REPO = 'eks-jenkins'
         EKS_CLUSTER = 'EKS-Jenkins-cicd'
         AWS_ACCOUNT_ID = '718959508398'
 
