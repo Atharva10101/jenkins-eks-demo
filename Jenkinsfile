@@ -3,7 +3,7 @@ pipeline {
     agent any
 
     environment {
-        AWS_REGION = 'ap-south-1'
+        AWS_REGION = 'ap-southeast-2'
         ECR_REPO = 'jenkins-repo'
         EKS_CLUSTER = 'live-tech-eks'
         AWS_ACCOUNT_ID = '965444437141'
